@@ -43,7 +43,7 @@ const Header = () => {
           : "bg-transparent py-5"
       )}
     >
-      <div className="container mx-auto px-4 flex items-center justify-between">
+      <div className="container mx-auto px-12 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           {/* <div className="relative w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
             <ImageIcon className="w-6 h-6 text-white" />

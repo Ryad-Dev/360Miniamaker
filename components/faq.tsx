@@ -47,7 +47,7 @@ const FAQ = () => {
     window.open("mailto:miniaaker360@gmail.com", "_blank"); // Remplace par l'URL de redirection souhaitée
   };
   return (
-    <section id="faq" ref={ref} className="py-20 relative">
+    <section id="faq" ref={ref} className="py-10 relative">
       {/* Decorative background elements */}
       <div className="absolute bottom-0 right-0 w-1/3 h-1/3 bg-blue-500/5 rounded-full filter blur-3xl"></div>
       

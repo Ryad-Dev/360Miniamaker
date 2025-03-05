@@ -49,7 +49,7 @@ const Benefits = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="benefits" ref={ref} className="py-20 relative">
+    <section id="benefits" ref={ref} className="py-7 relative">
       {/* Decorative background elements */}
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-blue-500/5 rounded-full filter blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-blue-500/5 rounded-full filter blur-3xl"></div>

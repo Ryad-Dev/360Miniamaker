@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative pt-32 pb-20 md:pt-30 md:pb-32 overflow-hidden">
+    <section className="relative pt-36  md:pt-32 md:pb-32 overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-1/4 right-0 w-72 h-72 bg-blue-500/10 rounded-full filter blur-3xl"></div>
       <div className="absolute bottom-1/4 left-0 w-72 h-72 bg-blue-500/10 rounded-full filter blur-3xl"></div>
@@ -23,27 +23,26 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex flex-col items-start space-y-6"
+            className="flex flex-col items-center space-y-6"
           >
-            <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-500 text-sm font-medium">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-500 text-sm font-medium">
               <span className="mr-2">⚡</span>
               <span>Miniatures YouTube Professionelles</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              <span className="block">Boostez votre</span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-300">
+            <h1 className="text-4xl text-center md:text-5xl lg:text-6xl font-bold leading-tight">
+              <span className="">Boostez votre</span><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-300">
               Taux de clic
               </span>
+              
               <span className="block">Avec des miniatures accrocheuses</span>
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-lg">
-            Service de conception de miniatures professionnelles pour les YouTubeurs qui souhaitent se démarquer,
-            augmenter le nombre de vues et développer leur chaîne avec des miniatures visuellement époustouflantes.
+            Service de conception de miniatures professionnelles pour les YouTubeurs qui souhaitent se démarquer.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
               
               <Button 
                 size="lg" 

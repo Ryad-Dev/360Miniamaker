@@ -94,18 +94,18 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="flex-shrink-0 w-96 p-6 rounded-2xl">
               <div className="flex items-center">
-  <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
-    <img
-      src={testimonial.image}
-      alt={testimonial.name}
-      className="w-full h-full object-cover"
-    />
-  </div>
-  <div>
-    <h3 className="font-semibold">{testimonial.name}</h3>
-    {/* <p className="text-sm text-muted-foreground">{testimonial.channel}</p> */}
-  </div>
-</div>
+                <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <h3 className="font-semibold">{testimonial.name}</h3>
+                  {/* <p className="text-sm text-muted-foreground">{testimonial.channel}</p> */}
+                </div>
+              </div>
 
               {/* <div className="flex items-center space-x-1 mb-4">
               {[...Array(testimonial.rating)].map((_, i) => (

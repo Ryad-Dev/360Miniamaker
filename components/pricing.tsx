@@ -70,7 +70,7 @@ const Pricing = () => {
   };
 
   return (
-    <section id="pricing" ref={ref} className="py-20 relative">
+    <section id="pricing" ref={ref} className="py-10 relative">
       {/* Decorative background elements */}
       <div className="absolute top-1/4 left-0 w-1/3 h-1/3 bg-blue-500/5 rounded-full filter blur-3xl"></div>
       <div className="absolute bottom-1/4 right-0 w-1/3 h-1/3 bg-blue-500/5 rounded-full filter blur-3xl"></div>

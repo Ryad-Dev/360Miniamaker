@@ -8,29 +8,43 @@ import { Button } from '@/components/ui/button';
 // Sample thumbnail data
 const thumbnailRows = [
   [
-    "https://lh3.googleusercontent.com/d/1XObNJvjyQGh4iXhB7nVyp6RA2y6Gu1XA",
+    "https://lh3.googleusercontent.com/d/1FZ0Sq32fJ1bfU1vCKJ6Q3cb9NostMa3K",
     "https://lh3.googleusercontent.com/d/19hHxhA6MAaQmloXlAHAx6AUxIUwR_ws-",
-    "https://lh3.googleusercontent.com/d/1HPHE1EuG-Ev-L1Y6Xqap254AeA80vzLs",
-    "https://lh3.googleusercontent.com/d/1kx9xpK0UNpyunfx6CXAV172QTrd4N8OR",
-    "https://lh3.googleusercontent.com/d/1KSYyaNfYKVNwAaB3GHjQezv1b9fv-w5a",
-    "https://lh3.googleusercontent.com/d/1cPdy9ipU8FOn7P0AqkrwWSoUyQmSarvd",
-  ],
-  [
-    "https://lh3.googleusercontent.com/d/1nRXqZG7Ex4lAGt2p1cMYaNizIIniX6av",
-    "https://lh3.googleusercontent.com/d/1SnAjricSOdPSe9Y8mqKmgHb1wGepH2i1",
-    "https://lh3.googleusercontent.com/d/18Caw8qRabk19YxPLeC62CTybq7oOlMPE",
-    "https://lh3.googleusercontent.com/d/1EHDlVkF_q9X2gxR5ix-zsZvP0wD2wwVO",
-    "https://lh3.googleusercontent.com/d/1gnHe6cySYhwmRHh6degXLJz-Ua7wCsb_",
-    "https://lh3.googleusercontent.com/d/1vJvyzRfPVuYms5ZS65EpQvRuXUS1OfkK",
+    "https://lh3.googleusercontent.com/d/11JyjfE2TKW4SV-2IYU5_sx7_8fCVEto6",
+    
+    "https://lh3.googleusercontent.com/d/1uBUmwGMAi75J1SwKuo_HgOG-nuWvo-Pc",
+    "https://lh3.googleusercontent.com/d/1NIj0K9Jnf839ZwYSlxypOvwIYmlHkNaO",
+    "https://lh3.googleusercontent.com/d/1v4kygFhSL6rZ1iH18arqXByPiXnUqDcB",
   ],
   [
     
-    "https://lh3.googleusercontent.com/d/1yCWgvWdwGm72LIctS-Qt_tNbfXNTOrb6",
-    "https://lh3.googleusercontent.com/d/1d7hxKANLmY3blvCGZ6LhK0cDYKF-YQeK",
-    "https://lh3.googleusercontent.com/d/1lbHvxxPYeg0hGWvmrwWSMOPk6dk6BQmv",
-    "https://lh3.googleusercontent.com/d/1IMiUARGuYPou4CbeoLhpsdfJyqcMCgIQ",
-    "https://lh3.googleusercontent.com/d/1EVEGXt4HY_H-G0J-IvcXKj-llrpmXg76",
-    "https://lh3.googleusercontent.com/d/1ag7bKjAi4AWe3hkeUVZlTA3EE0UtCsJn",
+
+   
+    "https://lh3.googleusercontent.com/d/13WfyyKZXsdBZQPqo73PtWNHvmqJDLrXX",
+    "https://lh3.googleusercontent.com/d/1X48JWLuJFQDrPDIhYkvna9oqeBe4i8z4",
+    "https://lh3.googleusercontent.com/d/1SsdEm5tc22uQh098GUFNbpWJ7qK6gNLd",
+
+    "https://lh3.googleusercontent.com/d/11GJlI4x1Fs5z0NF_TVkX9sloJm4DN6j_",
+    "https://lh3.googleusercontent.com/d/10ET_CFSmqej-f5RfehWNxPeobwtZIzRX",
+    "https://lh3.googleusercontent.com/d/14C4XT2UWRPfI46Ofm1VBj34Nviq5FWJW",
+  ],
+  [
+    
+   
+  
+
+    
+    "https://lh3.googleusercontent.com/d/19hgkUCVMktKoFq1LT8pDDgBcgQ2wvwIM",
+    "https://lh3.googleusercontent.com/d/1iXrofcnA2iCMubyqJGIuA_ErGBoJ_9uN",
+ 
+    "https://lh3.googleusercontent.com/d/1vtgw3mD2UIwh49HsdGu9Sl0iVas9Vq0Q", 
+    
+    "https://lh3.googleusercontent.com/d/1vhwyTSJqLsJ5Nzan0AtgDhe8rAPusthY",
+    "https://lh3.googleusercontent.com/d/1Ne2bImrOH89zq2kmcTdbHKTJ82IBqdiF",
+    "https://lh3.googleusercontent.com/d/17G1zYEIIra1EEJm4A4k_L1Xt0fHka1TH",
+
+    // 1FavV-bfZ6Cxg8ZwbkMD95FuJVA8QZkAg    ia mac 
+    // 12C5SFejEvJCS89SuKti8iUcvVcAM_bQS   barack 
   ],
 ];
 
