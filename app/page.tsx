@@ -21,7 +21,7 @@ export default function Home() {
 
       <Header />
       <Hero />
-      {/* <Collaborations /> */}
+      <Collaborations />
       <Benefits />
       <Portfolio />
       <Process />

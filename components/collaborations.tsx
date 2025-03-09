@@ -18,23 +18,33 @@ const creators = [
   {
     name: "TravelVlogger",
     subscribers: "2.5M",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    image: "https://yt3.googleusercontent.com/d2q_vp_hloI_-ZDdCbhxeC0j5WpsNCjOOZcVJ-rVIY8t7qqdQzDYJBxxTVXb2XwZZOzduC4D5A=s160-c-k-c0x00ffffff-no-rj"
   },
   {
     name: "FitnessCoach",
     subscribers: "1.8M",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    image: "https://yt3.googleusercontent.com/ZiwRR9dkf-nNDgVRfvQMdwss6GsIl4yR0vTLau_txClJWN-ZpDm-gca2omsAEvNDOB_Ss_egzA=s160-c-k-c0x00ffffff-no-rj"
   },
   {
     name: "CookingExpert",
     subscribers: "3.2M",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    image: "https://yt3.googleusercontent.com/aA_aJqi7EO-6nmocjkKHLdaW0xJ-jg0O5N3Rjtu_bmhMm9ClchDpmk7EH3agMNhKjADlxQV9_Q=s160-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    name: "CookingExpert",
+    subscribers: "3.2M",
+    image: "https://yt3.ggpht.com/LrxD7CAFpYZt3VE79Zk44rS_xRxJfYfwfX2dob6iY1wA_HchuClXwX6qLL5eoH4lnmpa6BUOig=s176-c-k-c0x00ffffff-no-rj-mo"
   },
   {
     name: "BeautyGuru",
     subscribers: "4.7M",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-  }
+    image: "https://yt3.googleusercontent.com/PnDgSmTHKkb62syZsIMHd-ZxuZkaFBZcLPzA1usZ3Euk6GnHse75HxBeXSBqaHeVAUwG3Rcjruo=s160-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    name: "CookingExpert",
+    subscribers: "3.2M",
+    image: "https://yt3.ggpht.com/h6GDRGctiySML0ZBijYbycbYgcAen-BZhlyNoYr8E5SoJyGP7HGlZ7O-1gDeDk8IFZAN6Yl5xLU=s176-c-k-c0x00ffffff-no-rj-mo"
+  },
 ];
 
 const Collaborations = () => {
@@ -42,7 +52,7 @@ const Collaborations = () => {
   const isInView = useInView(ref, { once: true, margin: "-10px" });
 
   return (
-    <section ref={ref} className="py-10 relative">
+    <section ref={ref} className=" relative">
       {/* Decorative background element */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/5 to-transparent pointer-events-none"></div>
       
@@ -56,12 +66,12 @@ const Collaborations = () => {
           {/* <h2 className="text-3xl md:text-4xl font-bold mb-4">
            Nos <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-300">Collaborations</span>
           </h2> */}
-          <p className="text-muted-foreground text-xl">
+          {/* <p className="text-muted-foreground text-xl">
             Ils nous ont fait confiance
-          </p>
+          </p> */}
         </motion.div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-8 mx-36">
           {creators.map((creator, index) => (
             <motion.div
               key={index}
@@ -69,9 +79,9 @@ const Collaborations = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <Card className="w-28 h-28 rounded-full overflow-hidden mr-4">
+              <Card className="w-20 h-20 rounded-full overflow-hidden ">
                 <CardContent className="p-0">
-                <div className="w-28 h-28 rounded-full overflow-hidden mr-4">
+                <div className="w-20 h-20 rounded-full overflow-hidden ">
                           <img 
                             src={creator.image} 
                             alt={creator.name} 

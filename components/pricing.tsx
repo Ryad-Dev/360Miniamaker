@@ -19,22 +19,21 @@ const pricingPlans = [
       "livraison en 24h",
     ],
     notIncluded: [
-      "A/B Tests",
+     
     ],
     popular: false,
-    buttonText: "Commencer maintenant",
+    buttonText: "Essayez gratuitement",
     buttonVariant: "outline" as const,
   },
   {
-    name: "Pack de 5 miniatures",
-    price: "250",
-    description: "5 miniatures a utiliser a votre rythme de publication",
+    name: "Pack de 3 miniatures",
+    price: "140",
+    description: "5 miniatures à utiliser à votre rythme de publication",
     features: [
-      "5 Miniatures personnalisées",
+      "3 Miniatures personnalisées",
       "Retouches ilimitées",
       "Fichiers haute résolution",
       "livraison en 24h pour chaque miniature ",
-      "A/B Tests (+$15/miniature)",
     ],
     notIncluded: [
     ],
@@ -43,14 +42,14 @@ const pricingPlans = [
     buttonVariant: "outline" as const,
   },
   {
-    name: "A/B Test",
-    price: "75",
-    description: "Testez différentes conceptions pour maximiser le CTR",
+    name: "Pack de 5 miniatures",
+    price: "225",
+    description: "5 miniatures à utiliser à votre rythme de publication",
     features: [
-      "2 Versions de miniature personnalisées",
+      "5 Miniatures personnalisées",
       "Retouches ilimitées",
       "Fichiers haute résolution",
-      "livraison en 24h",
+      "livraison en 24h pour chaque miniature ",
     ],
     notIncluded: [
     ],
@@ -58,6 +57,22 @@ const pricingPlans = [
     buttonText: "Commencer maintenant",
     buttonVariant: "outline" as const,
   },
+  // {
+  //   name: "A/B Test",
+  //   price: "75",
+  //   description: "Testez différentes conceptions pour maximiser le CTR",
+  //   features: [
+  //     "2 Versions de miniature personnalisées",
+  //     "Retouches ilimitées",
+  //     "Fichiers haute résolution",
+  //     "livraison en 24h",
+  //   ],
+  //   notIncluded: [
+  //   ],
+  //   popular: false,
+  //   buttonText: "Commencer maintenant",
+  //   buttonVariant: "outline" as const,
+  // },
 
 ];
 
@@ -120,7 +135,7 @@ const Pricing = () => {
                 <CardContent className="flex-grow">
                   <div className="mb-6">
                     <span className="text-4xl font-bold">{plan.price} €</span>
-                    {plan.name !== "Pack de 4 miniatures" && <span className="text-muted-foreground ml-1">/ miniature</span>}
+                    {plan.name == "" && <span className="text-muted-foreground ml-1">/ miniature</span>}
                   </div>
                   
                   <div className="space-y-3">

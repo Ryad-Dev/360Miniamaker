@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "De quelles informations avez-vous besoin de ma part ?",
-    answer: "Pour créer des miniatures efficaces, nous aurons besoin du sujet de votre vidéo, des éléments spécifiques que vous souhaitez inclure, du guide de style de votre chaîne (si disponible) et des images de référence ou exemples que vous souhaitez. Plus vous nous fournirez d'informations, mieux nous pourrons correspondre à votre vision."
+    answer: "Pour créer des miniatures efficaces, nous aurons besoin du sujet de votre vidéo, des éléments spécifiques que vous souhaitez inclure, du style de votre chaîne (si possible) et des images de référence ou exemples que vous souhaitez. Plus vous nous fournirez d'informations, mieux nous pourrons correspondre à votre vision."
   },
   {
     question: "Combien de révisions sont incluses ?",
@@ -31,8 +31,8 @@ const faqs = [
     answer: "Absolument ! Nous vous encourageons à partager votre vision, vos images de référence et tout élément spécifique que vous souhaitez inclure. Notre objectif est de créer des miniatures qui correspondent à votre marque et au style de votre contenu."
   },
   {
-    question: "Quelle est la différence entre le plan Basic et le pack de 5 miniatures ?",
-    answer: "Le plan basic comprend une miniature unique tandis que le pack de 5 miniatures comprennent 5 miniatures facturees en une fois mais qui peut etre utilise au rythme du youtubeur lorsqu'il veut publier chaque video "
+    question: "Quelle est la différence entre le plan Basic et le pack de 3 miniatures ?",
+    answer: "Le plan basic comprend une miniature unique tandis que le pack de 3 miniatures comprennent 3 miniatures facturées en une fois mais qui peut etre utilisées au rythme du youtubeur lorsqu'il veut publier chaque video "
   },
   {
     question: "Comment passer une commande ?",

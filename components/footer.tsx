@@ -173,7 +173,7 @@ const Footer = () => {
 
         <div className="border-t border-border/50 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © {new Date().getFullYear()} 360Miniamaker  Tous droits réservés.
+            © {new Date().getFullYear()} 360Miniamaker Tous droits réservés.
           </p>
 
           {/* <div className="flex space-x-6">
