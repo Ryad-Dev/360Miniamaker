@@ -28,7 +28,7 @@ const pricingPlans = [
   {
     name: "Pack de 3 miniatures",
     price: "140",
-    description: "5 miniatures à utiliser à votre rythme de publication",
+    description: "3 miniatures à utiliser à votre rythme de publication",
     features: [
       "3 Miniatures personnalisées",
       "Retouches ilimitées",
