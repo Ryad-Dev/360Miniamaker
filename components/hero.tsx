@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl text-center md:text-5xl lg:text-6xl font-bold leading-tight">
-              <span className="">Boostez votre</span><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-300">
+              <span className="">Boostez votre </span><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-300">
               Taux de clic
               </span>
               

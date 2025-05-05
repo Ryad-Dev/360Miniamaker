@@ -26,12 +26,12 @@ const creators = [
     image: "https://yt3.googleusercontent.com/ZiwRR9dkf-nNDgVRfvQMdwss6GsIl4yR0vTLau_txClJWN-ZpDm-gca2omsAEvNDOB_Ss_egzA=s160-c-k-c0x00ffffff-no-rj"
   },
   {
-    name: "CookingExpert",
+    name: "Pilea AGENCY",
     subscribers: "3.2M",
-    image: "https://yt3.googleusercontent.com/aA_aJqi7EO-6nmocjkKHLdaW0xJ-jg0O5N3Rjtu_bmhMm9ClchDpmk7EH3agMNhKjADlxQV9_Q=s160-c-k-c0x00ffffff-no-rj"
+    image: "https://yt3.googleusercontent.com/OIjWfFO7ik-RL1KIXnQA2It66LXLIIYPgf-LwuuV5hJWlOJfzpQ52O0opSzm7VR1N4QsHSzTKw=s160-c-k-c0x00ffffff-no-rj"
   },
   {
-    name: "CookingExpert",
+    name: "Jean Baptiste",
     subscribers: "3.2M",
     image: "https://yt3.ggpht.com/LrxD7CAFpYZt3VE79Zk44rS_xRxJfYfwfX2dob6iY1wA_HchuClXwX6qLL5eoH4lnmpa6BUOig=s176-c-k-c0x00ffffff-no-rj-mo"
   },
@@ -41,9 +41,9 @@ const creators = [
     image: "https://yt3.googleusercontent.com/PnDgSmTHKkb62syZsIMHd-ZxuZkaFBZcLPzA1usZ3Euk6GnHse75HxBeXSBqaHeVAUwG3Rcjruo=s160-c-k-c0x00ffffff-no-rj"
   },
   {
-    name: "CookingExpert",
+    name: "Plein Gaz",
     subscribers: "3.2M",
-    image: "https://yt3.ggpht.com/h6GDRGctiySML0ZBijYbycbYgcAen-BZhlyNoYr8E5SoJyGP7HGlZ7O-1gDeDk8IFZAN6Yl5xLU=s176-c-k-c0x00ffffff-no-rj-mo"
+    image: "https://yt3.googleusercontent.com/anYZAYrH5Yq2X9NwKUANS9UaGMkF3SApFRCh5AOrn8sMgi2y19N_xPXRCZU4H9ONl4kP2X4Y7Q=s160-c-k-c0x00ffffff-no-rj"
   },
 ];
 
