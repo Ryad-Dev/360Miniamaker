@@ -80,7 +80,7 @@ const Header = () => {
             onClick={() => scrollToSection('pricing')}
             className="bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 text-white border-0"
           >
-            Essayez gratuitement
+            Voir les tarifs
           </Button>
         </div>
 
@@ -119,7 +119,7 @@ const Header = () => {
               onClick={() => scrollToSection('pricing')}
               className="bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 text-white border-0 w-full"
             >
-             Essayez gratuitement
+             Voir les tarifs
             </Button>
           </nav>
         </div>

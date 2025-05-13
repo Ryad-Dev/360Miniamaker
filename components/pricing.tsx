@@ -22,7 +22,7 @@ const pricingPlans = [
      
     ],
     popular: false,
-    buttonText: "Essayez gratuitement",
+    buttonText: "Commencer maintenant",
     buttonVariant: "outline" as const,
   },
   {

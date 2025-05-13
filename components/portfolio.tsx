@@ -8,19 +8,24 @@ import { Button } from '@/components/ui/button';
 // Sample thumbnail data
 const thumbnailRows = [
   [
-    "https://lh3.googleusercontent.com/d/1FZ0Sq32fJ1bfU1vCKJ6Q3cb9NostMa3K",
+    
+    //"https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
+    //"https://lh3.googleusercontent.com/d/1_DG9bXStZ_s1JdcoVJMNG4eWN05EG6O7", //coaching orange 
+   
+   //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
+      "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
+    //"https://lh3.googleusercontent.com/d/1FZ0Sq32fJ1bfU1vCKJ6Q3cb9NostMa3K", 
     "https://lh3.googleusercontent.com/d/19hHxhA6MAaQmloXlAHAx6AUxIUwR_ws-",
     "https://lh3.googleusercontent.com/d/11JyjfE2TKW4SV-2IYU5_sx7_8fCVEto6",
-    
-    "https://lh3.googleusercontent.com/d/1uBUmwGMAi75J1SwKuo_HgOG-nuWvo-Pc",
-    "https://lh3.googleusercontent.com/d/1NIj0K9Jnf839ZwYSlxypOvwIYmlHkNaO",
+    "https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
+    //"https://lh3.googleusercontent.com/d/1uBUmwGMAi75J1SwKuo_HgOG-nuWvo-Pc",
     "https://lh3.googleusercontent.com/d/1v4kygFhSL6rZ1iH18arqXByPiXnUqDcB",
+    "https://lh3.googleusercontent.com/d/1NIj0K9Jnf839ZwYSlxypOvwIYmlHkNaO",
+    
   ],
   [
-    
-
-   
     "https://lh3.googleusercontent.com/d/13WfyyKZXsdBZQPqo73PtWNHvmqJDLrXX",
+   // "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
     "https://lh3.googleusercontent.com/d/1X48JWLuJFQDrPDIhYkvna9oqeBe4i8z4",
     "https://lh3.googleusercontent.com/d/1SsdEm5tc22uQh098GUFNbpWJ7qK6gNLd",
 
@@ -29,20 +34,14 @@ const thumbnailRows = [
     "https://lh3.googleusercontent.com/d/14C4XT2UWRPfI46Ofm1VBj34Nviq5FWJW",
   ],
   [
-    
-   
-  
-
-    
-   // "https://lh3.googleusercontent.com/d/19hgkUCVMktKoFq1LT8pDDgBcgQ2wvwIM",
-   
+   //"https://lh3.googleusercontent.com/d/19hgkUCVMktKoFq1LT8pDDgBcgQ2wvwIM",
+   //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
     "https://lh3.googleusercontent.com/d/1vtgw3mD2UIwh49HsdGu9Sl0iVas9Vq0Q",
     "https://lh3.googleusercontent.com/d/1nhpEkFWAfarfvY9iGlD-Nc85xQed1UO4",
     "https://lh3.googleusercontent.com/d/1iXrofcnA2iCMubyqJGIuA_ErGBoJ_9uN",
      
     "https://lh3.googleusercontent.com/d/1Ne2bImrOH89zq2kmcTdbHKTJ82IBqdiF",
     "https://lh3.googleusercontent.com/d/1vhwyTSJqLsJ5Nzan0AtgDhe8rAPusthY",
-    
     "https://lh3.googleusercontent.com/d/17G1zYEIIra1EEJm4A4k_L1Xt0fHka1TH",
 
 

@@ -25,7 +25,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col items-center space-y-6"
           >
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-500 text-sm font-medium">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-white text-sm font-medium">
               <span className="mr-2">⚡</span>
               <span>Miniatures YouTube Professionelles</span>
             </div>
