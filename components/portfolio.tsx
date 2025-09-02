@@ -7,6 +7,16 @@ import { Button } from '@/components/ui/button';
 
 // Sample thumbnail data
 const thumbnailRows = [
+    [
+    "https://lh3.googleusercontent.com/d/1rPvD_8H8YMRswekRBTrcLVQ4AVYKobon", 
+    "https://lh3.googleusercontent.com/d/11-YXa9VcwqtTicN3UW2qBPgPlzqBWMcK",
+    "https://lh3.googleusercontent.com/d/1PhOzzCrXbddLi8fDH5Bjk7SPBOsudzrP",
+
+    "https://lh3.googleusercontent.com/d/1f4KRudb0Cc15P79Ehx6djTdPVFrbt1nB", 
+    "https://lh3.googleusercontent.com/d/1p_u9YL_TAj2LiLFyq36UNlPh1M9FdTaA",
+    "https://lh3.googleusercontent.com/d/1Ilfg7Xft8Wtlo_m2cchI-yP7imvk5fnX",
+    
+  ],
   [
     
     //"https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
@@ -15,7 +25,7 @@ const thumbnailRows = [
    //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
       "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
     //"https://lh3.googleusercontent.com/d/1FZ0Sq32fJ1bfU1vCKJ6Q3cb9NostMa3K", 
-    "https://lh3.googleusercontent.com/d/19hHxhA6MAaQmloXlAHAx6AUxIUwR_ws-",
+    "https://lh3.googleusercontent.com/d/182LOCKS426efyJSlKOHGehRpKsrO0Vvm",
     "https://lh3.googleusercontent.com/d/11JyjfE2TKW4SV-2IYU5_sx7_8fCVEto6",
     "https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
     //"https://lh3.googleusercontent.com/d/1uBUmwGMAi75J1SwKuo_HgOG-nuWvo-Pc",
@@ -188,14 +198,14 @@ const Portfolio = () => {
         </div>
         {/* Row 2 */}
         <div className="testimonials-container flex overflow-x-hidden space-x-6 pb-4">
-          {[...thumbnailRows[1], ...thumbnailRows[1]].map((thumbnail1, index) => (
+          {[...thumbnailRows[1], ...thumbnailRows[1]].map((thumbnail, index) => (
 
             <div
               key={`row1-${index}`}
               className="flex-shrink-0 relative w-780 h-44 rounded-lg overflow-hidden border border-border/50 shadow-lg"
             >
               <img
-                src={thumbnail1}
+                src={thumbnail}
                 alt={`Thumbnail  ${index + 1}`}
                 className="w-full h-full object-cover"
               />
@@ -205,14 +215,29 @@ const Portfolio = () => {
 
         {/* Row 3 */}
         <div className="carte-container flex overflow-x-hidden space-x-6 pb-4">
-          {[...thumbnailRows[2], ...thumbnailRows[2]].map((thumbnail2, index) => (
+          {[...thumbnailRows[2], ...thumbnailRows[2]].map((thumbnail, index) => (
 
             <div
               key={`row3-${index}`}
               className="flex-shrink-0 relative w-80 h-44 rounded-lg overflow-hidden border border-border/50 shadow-lg"
             >
               <img
-                src={thumbnail2}
+                src={thumbnail}
+                alt={`Thumbnail  ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
+        <div className="carte-container flex overflow-x-hidden space-x-6 pb-4">
+          {[...thumbnailRows[3], ...thumbnailRows[3]].map((thumbnail, index) => (
+
+            <div
+              key={`row3-${index}`}
+              className="flex-shrink-0 relative w-80 h-44 rounded-lg overflow-hidden border border-border/50 shadow-lg"
+            >
+              <img
+                src={thumbnail}
                 alt={`Thumbnail  ${index + 1}`}
                 className="w-full h-full object-cover"
               />
