@@ -10,7 +10,7 @@ import router from 'next/router';
 const pricingPlans = [
   {
     name: "Basic",
-    price: "25",
+    price: "50",
     description: "Idéal pour les créateurs débutants",
     features: [
       "1 Miniature personnalisée",
@@ -27,7 +27,7 @@ const pricingPlans = [
   },
   {
     name: "Pack de 3 miniatures",
-    price: "75",
+    price: "140",
     description: "3 miniatures à utiliser à votre rythme de publication",
     features: [
       "3 Miniatures personnalisées",
@@ -43,7 +43,7 @@ const pricingPlans = [
   },
   {
     name: "Pack de 5 miniatures",
-    price: "125",
+    price: "200",
     description: "5 miniatures à utiliser à votre rythme de publication",
     features: [
       "5 Miniatures personnalisées",

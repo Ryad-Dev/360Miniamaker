@@ -18,7 +18,6 @@ const thumbnailRows = [
     
   ],
   [
-    
     //"https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
     //"https://lh3.googleusercontent.com/d/1_DG9bXStZ_s1JdcoVJMNG4eWN05EG6O7", //coaching orange 
    
