@@ -25,22 +25,7 @@ const pricingPlans = [
     buttonText: "Commencer maintenant",
     buttonVariant: "outline" as const,
   },
-  {
-    name: "Pack de 3 miniatures",
-    price: "140",
-    description: "3 miniatures à utiliser à votre rythme de publication",
-    features: [
-      "3 Miniatures personnalisées",
-      "Retouches ilimitées",
-      "Fichiers haute résolution",
-      "livraison en 24h pour chaque miniature ",
-    ],
-    notIncluded: [
-    ],
-    popular: true,
-    buttonText: "Commencer maintenant",
-    buttonVariant: "outline" as const,
-  },
+
   {
     name: "Pack de 5 miniatures",
     price: "220",
@@ -57,22 +42,38 @@ const pricingPlans = [
     buttonText: "Commencer maintenant",
     buttonVariant: "outline" as const,
   },
-  // {
-  //   name: "A/B Test",
-  //   price: "75",
-  //   description: "Testez différentes conceptions pour maximiser le CTR",
-  //   features: [
-  //     "2 Versions de miniature personnalisées",
-  //     "Retouches ilimitées",
-  //     "Fichiers haute résolution",
-  //     "livraison en 24h",
-  //   ],
-  //   notIncluded: [
-  //   ],
-  //   popular: false,
-  //   buttonText: "Commencer maintenant",
-  //   buttonVariant: "outline" as const,
-  // },
+    {
+    name: "Pack de 10 miniatures",
+    price: "400",
+    description: "10 miniatures à utiliser à votre rythme de publication",
+    features: [
+      "10 Miniatures personnalisées",
+      "Retouches ilimitées",
+      "Fichiers haute résolution",
+      "livraison en 24h pour chaque miniature ",
+    ],
+    notIncluded: [
+    ],
+    popular: true,
+    buttonText: "Commencer maintenant",
+    buttonVariant: "outline" as const,
+  },
+  {
+    name: "A/B Test",
+    price: "75",
+    description: "Testez différentes conceptions pour maximiser le CTR",
+    features: [
+      "2 Versions de miniature personnalisées",
+      "Retouches ilimitées",
+      "Fichiers haute résolution",
+      "livraison en 32h",
+    ],
+    notIncluded: [
+    ],
+    popular: false,
+    buttonText: "Commencer maintenant",
+    buttonVariant: "outline" as const,
+  },
 
 ];
 
@@ -105,7 +106,7 @@ const Pricing = () => {
           </p>
         </motion.div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {pricingPlans.map((plan, index) => (
             <motion.div
               key={index}
