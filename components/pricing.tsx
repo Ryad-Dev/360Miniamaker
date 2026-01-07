@@ -10,7 +10,8 @@ import router from 'next/router';
 const pricingPlans = [
   {
     name: "Basic",
-    price: "50",
+    priceb: "50",
+    price: "25",
     description: "Idéal pour les créateurs débutants",
     features: [
       "1 Miniature personnalisée",
@@ -28,7 +29,8 @@ const pricingPlans = [
 
   {
     name: "Pack de 5 miniatures",
-    price: "220",
+    priceb: "220",
+    price: "110",
     description: "5 miniatures à utiliser à votre rythme de publication",
     features: [
       "5 Miniatures personnalisées",
@@ -44,7 +46,8 @@ const pricingPlans = [
   },
     {
     name: "Pack de 10 miniatures",
-    price: "400",
+    priceb: "400",
+    price: "200",
     description: "10 miniatures à utiliser à votre rythme de publication",
     features: [
       "10 Miniatures personnalisées",
@@ -60,7 +63,8 @@ const pricingPlans = [
   },
   {
     name: "A/B Test",
-    price: "75",
+    priceb: "75",
+    price: "40",
     description: "Testez différentes conceptions pour maximiser le CTR",
     features: [
       "2 Versions de miniature personnalisées",
@@ -104,6 +108,9 @@ const Pricing = () => {
           <p className="text-muted-foreground text-lg">
           Choisissez le plan qui correspond aux besoins et au budget de votre chaîne
           </p>
+          {/* <h2 className="text-3xl md:text-4xl font-bold  pt-7">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r  from-green-500 to-green-300">-50% </span>
+          </h2> */}
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -135,7 +142,8 @@ const Pricing = () => {
                 
                 <CardContent className="flex-grow">
                   <div className="mb-6">
-                    <span className="text-4xl font-bold">{plan.price} €</span>
+                  <span className="text-2xl line-through">{plan.priceb}</span>
+                    <span className="text-4xl font-bold">  {plan.price} €</span>
                     {plan.name == "" && <span className="text-muted-foreground ml-1">/ miniature</span>}
                   </div>
                   
