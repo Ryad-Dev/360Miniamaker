@@ -30,7 +30,7 @@ const pricingPlans = [
   {
     name: "Pack de 5 miniatures",
     priceb: "220",
-    price: "110",
+    price: "100",
     description: "5 miniatures à utiliser à votre rythme de publication",
     features: [
       "5 Miniatures personnalisées",
