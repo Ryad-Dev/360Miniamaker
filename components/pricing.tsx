@@ -64,7 +64,7 @@ const pricingPlans = [
   {
     name: "A/B Test",
     priceb: "75",
-    price: "40",
+    price: "35",
     description: "Testez différentes conceptions pour maximiser le CTR",
     features: [
       "2 Versions de miniature personnalisées",
