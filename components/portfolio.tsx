@@ -7,49 +7,55 @@ import { Button } from '@/components/ui/button';
 
 // Sample thumbnail data
 const thumbnailRows = [
-    [
-    "https://lh3.googleusercontent.com/d/1rPvD_8H8YMRswekRBTrcLVQ4AVYKobon", 
+  [
+    "https://lh3.googleusercontent.com/d/1rPvD_8H8YMRswekRBTrcLVQ4AVYKobon",
     "https://lh3.googleusercontent.com/d/11-YXa9VcwqtTicN3UW2qBPgPlzqBWMcK",
     "https://lh3.googleusercontent.com/d/1PhOzzCrXbddLi8fDH5Bjk7SPBOsudzrP",
 
-    "https://lh3.googleusercontent.com/d/1f4KRudb0Cc15P79Ehx6djTdPVFrbt1nB", 
+    "https://lh3.googleusercontent.com/d/1f4KRudb0Cc15P79Ehx6djTdPVFrbt1nB",
     "https://lh3.googleusercontent.com/d/1p_u9YL_TAj2LiLFyq36UNlPh1M9FdTaA",
     "https://lh3.googleusercontent.com/d/1Ilfg7Xft8Wtlo_m2cchI-yP7imvk5fnX",
-    
-  ],
-  [
-    //"https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
-    //"https://lh3.googleusercontent.com/d/1_DG9bXStZ_s1JdcoVJMNG4eWN05EG6O7", //coaching orange 
-   
-   //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
-      "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
-    //"https://lh3.googleusercontent.com/d/1FZ0Sq32fJ1bfU1vCKJ6Q3cb9NostMa3K", 
-    "https://lh3.googleusercontent.com/d/182LOCKS426efyJSlKOHGehRpKsrO0Vvm",
-    "https://lh3.googleusercontent.com/d/11JyjfE2TKW4SV-2IYU5_sx7_8fCVEto6",
-    "https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
-    //"https://lh3.googleusercontent.com/d/1uBUmwGMAi75J1SwKuo_HgOG-nuWvo-Pc",
-    "https://lh3.googleusercontent.com/d/1v4kygFhSL6rZ1iH18arqXByPiXnUqDcB",
-    "https://lh3.googleusercontent.com/d/1NIj0K9Jnf839ZwYSlxypOvwIYmlHkNaO",
-    
-  ],
-  [
-    "https://lh3.googleusercontent.com/d/13WfyyKZXsdBZQPqo73PtWNHvmqJDLrXX",
-   // "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
-    "https://lh3.googleusercontent.com/d/1X48JWLuJFQDrPDIhYkvna9oqeBe4i8z4",
-    "https://lh3.googleusercontent.com/d/1SsdEm5tc22uQh098GUFNbpWJ7qK6gNLd",
 
-    "https://lh3.googleusercontent.com/d/11GJlI4x1Fs5z0NF_TVkX9sloJm4DN6j_",
+  ],
+  [
+    "https://lh3.googleusercontent.com/d/1IZekqlZAi3d1itSjR3ip6odvhG5GYXw5",
+    "https://lh3.googleusercontent.com/d/1NLRHVT2UWeqgAV1KG-3ERQ6H7PfvEx_n",
+    // "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
+    "https://lh3.googleusercontent.com/d/1HSj2BQ7Q4IyPZXuMtkTw4N0fKRiFomjN",
+    "https://lh3.googleusercontent.com/d/1v4kygFhSL6rZ1iH18arqXByPiXnUqDcB",
+    // "https://lh3.googleusercontent.com/d/1X48JWLuJFQDrPDIhYkvna9oqeBe4i8z4",
+
+
+
     "https://lh3.googleusercontent.com/d/10ET_CFSmqej-f5RfehWNxPeobwtZIzRX",
     "https://lh3.googleusercontent.com/d/14C4XT2UWRPfI46Ofm1VBj34Nviq5FWJW",
   ],
   [
-   //"https://lh3.googleusercontent.com/d/19hgkUCVMktKoFq1LT8pDDgBcgQ2wvwIM",
-   //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
-    "https://lh3.googleusercontent.com/d/1vtgw3mD2UIwh49HsdGu9Sl0iVas9Vq0Q",
-    "https://lh3.googleusercontent.com/d/1nhpEkFWAfarfvY9iGlD-Nc85xQed1UO4",
-    "https://lh3.googleusercontent.com/d/1iXrofcnA2iCMubyqJGIuA_ErGBoJ_9uN",
+
+    //"https://lh3.googleusercontent.com/d/1_DG9bXStZ_s1JdcoVJMNG4eWN05EG6O7", //coaching orange 
+
+    //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
+    "https://lh3.googleusercontent.com/d/1dzTZCQOzt6xvheyudmk7N04gnnN7h4ZQ", //coaching bleu
+    //"https://lh3.googleusercontent.com/d/1FZ0Sq32fJ1bfU1vCKJ6Q3cb9NostMa3K", 
+    "https://lh3.googleusercontent.com/d/182LOCKS426efyJSlKOHGehRpKsrO0Vvm",
+    "https://lh3.googleusercontent.com/d/1jhMos64h0yH4Oc7L4U_mZ3cVEAN9Z8Tr", //legend
+    "https://lh3.googleusercontent.com/d/11JyjfE2TKW4SV-2IYU5_sx7_8fCVEto6",
      
-    "https://lh3.googleusercontent.com/d/1Ne2bImrOH89zq2kmcTdbHKTJ82IBqdiF",
+    "https://lh3.googleusercontent.com/d/1uBUmwGMAi75J1SwKuo_HgOG-nuWvo-Pc",
+    "https://lh3.googleusercontent.com/d/1v4kygFhSL6rZ1iH18arqXByPiXnUqDcB",
+    "https://lh3.googleusercontent.com/d/1NIj0K9Jnf839ZwYSlxypOvwIYmlHkNaO",
+
+  ],
+
+  [
+    //"https://lh3.googleusercontent.com/d/19hgkUCVMktKoFq1LT8pDDgBcgQ2wvwIM",
+    //"https://lh3.googleusercontent.com/d/1y0j2fGi3JcvKsRNkO03OZfS60I2Q424c", //coaching plein gaz
+    "https://lh3.googleusercontent.com/d/1FdEIkAJ8aEIlxlZxL4XfTnLB4FRQtUmM",
+    "https://lh3.googleusercontent.com/d/1nhpEkFWAfarfvY9iGlD-Nc85xQed1UO4",
+    // "https://lh3.googleusercontent.com/d/1iXrofcnA2iCMubyqJGIuA_ErGBoJ_9uN",
+    "https://lh3.googleusercontent.com/d/163cPv0iknVSATdqL_MQE5F5MhTkBGbWd",
+    "https://lh3.googleusercontent.com/d/1NIj0K9Jnf839ZwYSlxypOvwIYmlHkNaO",
+    
     "https://lh3.googleusercontent.com/d/1vhwyTSJqLsJ5Nzan0AtgDhe8rAPusthY",
     "https://lh3.googleusercontent.com/d/17G1zYEIIra1EEJm4A4k_L1Xt0fHka1TH",
 
@@ -69,7 +75,7 @@ const Portfolio = () => {
   const row2Ref = useRef<HTMLDivElement>(null);
   const row3Ref = useRef<HTMLDivElement>(null);
   const [scrollPosition, setScrollPosition] = useState(0);
-  
+
   useEffect(() => {
     const interval = setInterval(() => {
       const container = document.querySelector('.carte-container');
@@ -124,12 +130,12 @@ const Portfolio = () => {
   //     return animation;
   //   };
 
-    // const row1Animation = animateRow(row1Ref, 'left', 30);
-    // const row2Animation = animateRow(row2Ref, 'right', 40);
-    // const row3Animation = animateRow(row3Ref, 'left', 35);
+  // const row1Animation = animateRow(row1Ref, 'left', 30);
+  // const row2Animation = animateRow(row2Ref, 'right', 40);
+  // const row3Animation = animateRow(row3Ref, 'left', 35);
 
 
-    // Pause animations when not in view
+  // Pause animations when not in view
   //   const observer = new IntersectionObserver(
   //     (entries) => {
   //       entries.forEach(entry => {
@@ -179,7 +185,7 @@ const Portfolio = () => {
 
       <div className="space-y-8">
 
-         {/* Row 1 */}
+        {/* Row 1 */}
         <div className="carte-container flex overflow-x-hidden space-x-6 pb-4">
           {[...thumbnailRows[0], ...thumbnailRows[0]].map((thumbnail, index) => (
 
@@ -264,7 +270,7 @@ const Portfolio = () => {
           </div>
         </div> */}
 
-       
+
       </div>
 
 

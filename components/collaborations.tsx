@@ -16,9 +16,9 @@ const creators = [
     image: "https://yt3.googleusercontent.com/adIGSkHVtHpabZJ2KD_19yzNQQJGhM7l7bdzyeWGFUprdCivh_c8S48O8oiFJXmg3s1bWxgsZg=s160-c-k-c0x00ffffff-no-rj"
   },
   {
-    name: "TravelVlogger",
+    name: "Samir VMD",
     subscribers: "2.5M",
-    image: "https://yt3.googleusercontent.com/d2q_vp_hloI_-ZDdCbhxeC0j5WpsNCjOOZcVJ-rVIY8t7qqdQzDYJBxxTVXb2XwZZOzduC4D5A=s160-c-k-c0x00ffffff-no-rj"
+    image: "https://yt3.ggpht.com/0bsRFyg3tXJ8DGinaZnUeMCcefsfRBMfpEqsad_7N5jdM0yvImIIxcXAw0UitG_YM6lD6kcM=s176-c-k-c0x00ffffff-no-rj-mo"
   },
   {
     name: "FitnessCoach",
