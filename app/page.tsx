@@ -18,9 +18,6 @@ export default function Home() {
       {/* Gradient background effects */}
       {/* <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,rgba(29,78,216,0.15)"></div>
       <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_bottom_left,rgba(29,78,216,0.15)"></div> */}
-   
-  
-   
       <Header />
       <Hero />
       <Collaborations />

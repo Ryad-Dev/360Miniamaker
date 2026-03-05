@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
-import Script from 'next/script';
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,22 +20,26 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head><link rel="icon" href="/favicon.ico" />
-
+      <Analytics/>
       <script
   defer
   data-website-id="dfid_9r5p2rdzawygoMf7SGNkT"
   data-domain="360-miniamaker.vercel.app"
+   data-allow-localhost="true"
   src="https://datafa.st/js/script.js">
 </script>
 <script defer 
 data-website-id="site_gxt347iwq_1772676497851" 
 data-domain="360-miniamaker.vercel.app" 
+ data-allow-localhost="true"
 src="https://dataview-mu.vercel.app/js/script.js">
   
 </script>
 
 
-      <Script
+    
+      </head>
+        {/* <Script
         id="facebook-pixel"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -52,8 +56,7 @@ src="https://dataview-mu.vercel.app/js/script.js">
             fbq('track', 'PageView');
           `,
         }}
-      />
-      </head>
+      /> */}
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
