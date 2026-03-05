@@ -20,6 +20,21 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head><link rel="icon" href="/favicon.ico" />
+
+      <script
+  defer
+  data-website-id="dfid_9r5p2rdzawygoMf7SGNkT"
+  data-domain="360-miniamaker.vercel.app"
+  src="https://datafa.st/js/script.js">
+</script>
+<script defer 
+data-website-id="site_gxt347iwq_1772676497851" 
+data-domain="360-miniamaker.vercel.app" 
+src="https://dataview-mu.vercel.app/js/script.js">
+  
+</script>
+
+
       <Script
         id="facebook-pixel"
         strategy="afterInteractive"
