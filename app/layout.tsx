@@ -21,13 +21,13 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head><link rel="icon" href="/favicon.ico" />
       <Analytics/>
-      <script
+      {/* <script
   defer
   data-website-id="dfid_9r5p2rdzawygoMf7SGNkT"
   data-domain="360-miniamaker.vercel.app"
    data-allow-localhost="true"
   src="https://datafa.st/js/script.js">
-</script>
+</script> */}
 <script defer 
 data-website-id="site_gxt347iwq_1772676497851" 
 data-domain="360-miniamaker.vercel.app" 
