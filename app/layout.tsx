@@ -30,7 +30,7 @@ export default function RootLayout({
 </script> */}
 
 <script defer data-website-id="site_gw85pvogu_1773227448287" 
-data-domain="https://360-miniamaker.vercel.app/"
+data-domain="360-miniamaker.vercel.app/"
  
 src="https://dataview-mu.vercel.app/js/script.js">
 

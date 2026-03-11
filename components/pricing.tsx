@@ -10,8 +10,8 @@ import router from 'next/router';
 const pricingPlans = [
   {
     name: "Basic",
-    priceb: "50",
-    price: "25",
+    priceb: "25",
+    price: "15",
     description: "Idéal pour les créateurs débutants",
     features: [
       "1 Miniature personnalisée",
@@ -29,8 +29,8 @@ const pricingPlans = [
 
   {
     name: "Pack de 5 miniatures",
-    priceb: "220",
-    price: "110",
+    priceb: "120",
+    price: "70",
     description: "5 miniatures à utiliser à votre rythme de publication",
     features: [
       "5 Miniatures personnalisées",
@@ -46,8 +46,8 @@ const pricingPlans = [
   },
   {
     name: "Pack de 10 miniatures",
-    priceb: "400",
-    price: "200",
+    priceb: "220",
+    price: "130",
     description: "10 miniatures à utiliser à votre rythme de publication",
     features: [
       "10 Miniatures personnalisées",
@@ -63,8 +63,8 @@ const pricingPlans = [
   },
   {
     name: "A/B Test",
-    priceb: "75",
-    price: "35",
+    priceb: "40",
+    price: "25",
     description: "Testez différentes conceptions pour maximiser le CTR",
     features: [
       "2 Versions de miniature personnalisées",
