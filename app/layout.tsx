@@ -28,13 +28,14 @@ export default function RootLayout({
    data-allow-localhost="true"
   src="https://datafa.st/js/script.js">
 </script> */}
-<script defer 
-data-website-id="site_gxt347iwq_1772676497851" 
-data-domain="360-miniamaker.vercel.app" 
- data-allow-localhost="true"
+
+<script defer data-website-id="site_gw85pvogu_1773227448287" 
+data-domain="https://360-miniamaker.vercel.app/"
+ 
 src="https://dataview-mu.vercel.app/js/script.js">
-  
+
 </script>
+
 
 
     
